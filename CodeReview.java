@@ -10,6 +10,7 @@ class CodeReview {
                               "        System.out.println(\"Hello, World!\");\n" +
                               "    }\n" +
                               "}";
+        int a;
 
         System.out.println("Code Review Guidelines:");
         System.out.println("1. Check code formatting.");
