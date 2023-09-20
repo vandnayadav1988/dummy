@@ -3,7 +3,6 @@ import java.util.Scanner;
 class CodeReview {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         // Sample code to be reviewed
         String codeToReview = "public class HelloWorld {\n" +
                               "    public static void main(String[] args) {\n" +
@@ -17,10 +16,8 @@ class CodeReview {
         System.out.println("3. Ensure code is properly documented.");
         System.out.println("4. Look for code smells and potential optimizations.");
         System.out.println("5. Test the code to ensure it functions as expected.");
-
         System.out.println("\nCode to Review:\n");
         System.out.println(codeToReview);
-
         System.out.println("\nStart the code review (Y/N)?");
         String startReview = scanner.nextLine();
 
