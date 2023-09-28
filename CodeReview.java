@@ -9,7 +9,10 @@ class CodeReview {
                               "        System.out.println(\"Hello, World!\");\n" +
                               "    }\n" +
                               "}";
-
+int a=25;
+        if(a==25){
+            String dumb;
+        }
         System.out.println("Code Review Guidelines:");
         System.out.println("1. Check code formatting.");
         System.out.println("2. Verify variable naming conventions.");
